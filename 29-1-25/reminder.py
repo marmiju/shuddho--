@@ -7,9 +7,9 @@ desc:
 """
 
 
-value = input("enter first value:")
+value1 = input("enter first value:")
+value2 = input("enter second  value:")
 
-num = int(value)
+rem = int(value1) % int(value2)
 
-if num % 2 == 0 : print("the number is even")
-else : print("the number is odd")
+print("reminder of num1 and num2 : ", rem)
